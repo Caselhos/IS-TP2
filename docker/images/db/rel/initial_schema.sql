@@ -45,7 +45,8 @@ ALTER TABLE musics
 
 INSERT INTO public.countries (id, name, created_on, updated_on) VALUES ('34e2344c-1b45-4ead-a5b2-3e20300d5875', 'PT', '2024-01-22 00:52:30.670275', '2024-01-22 00:52:30.670275');
 INSERT INTO public.artists (id, name, created_on, updated_on) VALUES ('38be47fa-30ea-46f2-b06a-e15f59c170f4', 'testartist', '2024-01-22 00:52:49.104179', '2024-01-22 00:52:49.104179');
+INSERT INTO public.albums (id, name, release_date, created_on, updated_on) VALUES ('c3b797ee-6d1e-4e5f-ad32-2b5a63388115', 'teste', '2024-01-11', '2024-01-22 00:50:48.399138', '2024-01-22 00:50:48.399138');
 INSERT INTO public.musics (id, spotify_id, name, album_id, created_on, updated_on) VALUES ('28f55446-a1c7-488e-b6c0-d1d27c315365', '443243242321', 'songtest', 'c3b797ee-6d1e-4e5f-ad32-2b5a63388115', '2024-01-22 00:51:31.153039', '2024-01-22 00:51:31.153039');
 INSERT INTO public.musics (id, spotify_id, name, album_id, created_on, updated_on) VALUES ('d5792a2e-4db3-40f6-bbd7-483c62feb15f', '321321212211', 'songtest2', 'c3b797ee-6d1e-4e5f-ad32-2b5a63388115', '2024-01-22 00:51:50.628976', '2024-01-22 00:51:50.628976');
-INSERT INTO public.albums (id, name, release_date, created_on, updated_on) VALUES ('c3b797ee-6d1e-4e5f-ad32-2b5a63388115', 'teste', '2024-01-11', '2024-01-22 00:50:48.399138', '2024-01-22 00:50:48.399138');
+
 
